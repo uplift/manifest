@@ -2,6 +2,15 @@
 ---
 containers:
 
+  - name: Lego WS
+    category: Application
+    icon: nodejs
+    image: node
+    ports:
+      - 9999
+    repository:
+      url: git@github.com:uplift/lego-inventory-ws.git
+
   - name: mongodb_data
     image: aweber/mongodata
     standalone: true
